@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Fawn - Store</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container menu-busca">
+        <div class="pesquisa">
+          <input id="search" type="search" placeholder="Digite aqui..." />
+          <img src="./icons/Lupa.svg" />
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#">Minha Conta</a></li>
+            <li><a href="#">Meus Favoritos</a></li>
+            <li><a href="#">Minha Sacola</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container container-img">
+        <div class="logo">
+          <img src="./images/logo-loja.png" alt="Logo da loja" />
+        </div>
+      </div>
+
+      <div class="mobile-nav">
+        <div class="button-menu">
+          <button type="button"><span></span><span></span><span></span></button>
+          <div class="icone-mobile">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./icons/user.png" alt="ícone usuário"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/like.png" alt="ícone favoritos"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/shop.png" alt="ícone carrinho de compras "
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <nav class="container">
+          <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li>
+              <a href="#">Categorias</a>
+            </li>
+            <li>
+              <a href="#produtos">Produtos</a>
+            </li>
+            <li>
+              <a href="#">Novidades</a>
+            </li>
+            <li>
+              <a href="#sobre-nos">Sobre</a>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </nav>
+      </div>
+
+      <div class="menu-itens">
+        <nav class="nav-menu">
+          <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li>
+              Categorias
+              <ul class="submenu">
+                <li>
+                  <a href="#">0 - 12 meses</a>
+                </li>
+                <li>
+                  <a href="#">12 - 18 meses</a>
+                </li>
+                <li>
+                  <a href="#">18 - 36 meses</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#produtos"> Produtos</a>
+              <ul class="submenu">
+                <li>
+                  <a href="#">Vestidos</a>
+                </li>
+                <li>
+                  <a href="#">Macacões</a>
+                </li>
+                <li>
+                  <a href="#">Bodys</a>
+                </li>
+                <li>
+                  <a href="#">Conjuntos</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Novidades
+              <ul class="submenu">
+                <li>
+                  <a href="#">Toucas</a>
+                </li>
+                <li>
+                  <a href="#">Botas</a>
+                </li>
+                <li>
+                  <a href="#">Bolsas</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Sobre
+              <ul class="submenu">
+                <li>
+                  <a href="#sobre-nos">Sobre Nós</a>
+                </li>
+                <li>
+                  <a href="#">Contate-nos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="sobre-nos">
+      <div class="sobre-nos">
+        <div class="image-sobre">
+          <img src="./images/loja.jpg" alt="Imagem da Loja" />
+        </div>
+        <div id="sobre">
+          <h2>Sobre a Little Fawn</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+            laudantium aperiam obcaecati consectetur. Deserunt voluptate,
+            necessitatibus laboriosam aut asperiores eos nobis amet neque animi.
+            Aperiam architecto quo quaerat voluptas inventore..
+          </p>
+
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+            laudantium aperiam obcaecati consectetur. Deserunt voluptate,
+            necessitatibus laboriosam aut asperiores eos nobis amet neque animi.
+            Aperiam architecto quo quaerat voluptas inventore.
+          </p>
+          <p class="not-mobile">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+            laudantium aperiam obcaecati consectetur. Deserunt voluptate,
+            necessitatibus laboriosam aut asperiores eos nobis amet neque animi.
+            Aperiam architecto quo quaerat voluptas inventore.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="produtos">
+        <article class="produto">
+          <a href="#">
+            <img src="./images/vestido-flor.jpg" alt="Imagem vestido florido" />
+            <h3>Vestido Florido</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img src="./images/conj-rosa.jpg" alt="Imagem conjunto rosa" />
+            <h3>Conjunto Rosa</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img
+              src="./images/vestido-most.jpg"
+              alt="Imagem Vestido Mostarda"
+            />
+            <h3>Vestido Mostarda</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+        <article class="produto">
+          <a href="#">
+            <img src="./images/vestido-br.jpg" alt="Imagem vestido branco" />
+            <h3>Vestido Branco</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img src="./images/mac-azul.jpg" alt="Imagem body azul" />
+            <h3>Body Azul</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img src="./images/conj.jpg" alt="Imagem de 2 bodys" />
+            <h3>Kit - 2 Bodys</h3></a
+          >
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img
+              src="./images/vestido-oliva.jpg"
+              alt="Imagem vestido com babado verde oliva"
+            />
+            <h3>Vestido Oliva</h3>
+          </a>
+          <p><strong>Valor: R$ 89,90</strong></p>
+          <p><span>2x de R$44,95 ou R$85,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+
+        <article class="produto">
+          <a href="#">
+            <img
+              src="./images/ela-ele.jpg"
+              alt="Imagem conjunto para casal de gêmeos "
+            />
+            <h3>Conjunto Fendi</h3></a
+          >
+          <p><strong>Valor: R$ 189,90</strong></p>
+          <p><span>2x de R$94,95 ou R$180,40 à vista</span></p>
+          <button type="button">Adicionar ao carrinho</button>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p>Nos siga nas redes sociais:</p>
+      </div>
+      <div class="footer-icons">
+        <img src="./icons/facebook.svg" alt="logo facebook" />
+        <img src="./icons/instagram.svg" alt="logo instagram" />
+        <img src="./icons/whatsapp.svg" alt="logo whatsapp" />
+      </div>
+      <div class="footer">
+        <p>&copy Little Fawn Baby Store - Todos os direitos reservados</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".button-menu button").click(function () {
+          $(".menu").slideToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
