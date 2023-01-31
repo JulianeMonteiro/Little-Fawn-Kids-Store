@@ -233,7 +233,6 @@ h2 {
 }
 
 .produto img {
-  height: 250px;
   width: 100%;
 }
 
@@ -339,9 +338,6 @@ footer {
     padding: 20px 0 20px 0;
     max-width: 80%;
   }
-  .image-sobre img {
-    height: 350px;
-  }
 
   #sobre {
     padding: 0;
@@ -413,7 +409,7 @@ footer {
     max-width: 80%;
   }
   .image-sobre img {
-    height: 600px;
+    height: 550px;
   }
 
   #sobre {
