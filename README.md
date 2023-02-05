@@ -14,7 +14,8 @@ The choice of the theme of the page was made to put into practice my knowledge i
 ## See Store Homepage in action
 
 Try with our [live demo](https://little-fawn-pagina-responsiva.vercel.app/).
-See below how the page behaves on different screens:
 
+See below how the page behaves on different screens:
+</br>
  <p align="center">
-  <img width="400" src=" ./images/telas-readme.png"> </p>
+  <img width="400" src=" ./images/telas_readme.png"> </p>
