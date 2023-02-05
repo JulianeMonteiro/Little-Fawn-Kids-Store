@@ -22,29 +22,55 @@
           </ul>
         </div>
       </div>
-      <div class="container nav-mobile">
-        <div class="menu-hamburguer">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul>
-          <li>
-            <a href="#"><img src="./icons/user.png" alt="ícone usuário" /></a>
-          </li>
-          <li>
-            <a href="#"></a><img src="./icons/like.png" alt="ícone favoritos" />
-          </li>
-          <li>
-            <a href="#"></a
-            ><img src="./icons/shop.png" alt="ícone carrinho de compras " />
-          </li>
-        </ul>
-      </div>
+
       <div class="container container-img">
         <div class="logo">
           <img src="./images/logo-loja.png" alt="Logo da loja" />
         </div>
+      </div>
+
+      <div class="mobile-nav">
+        <div class="button-menu">
+          <button type="button"><span></span><span></span><span></span></button>
+          <div class="icone-mobile">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./icons/user.png" alt="ícone usuário"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/like.png" alt="ícone favoritos"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/shop.png" alt="ícone carrinho de compras "
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <nav class="container">
+          <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li>
+              <a href="#">Categorias</a>
+            </li>
+            <li>
+              <a href="#produtos">Produtos</a>
+            </li>
+            <li>
+              <a href="#">Novidades</a>
+            </li>
+            <li>
+              <a href="#sobre-nos">Sobre</a>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </nav>
       </div>
 
       <div class="menu-itens">
@@ -100,7 +126,7 @@
               Sobre
               <ul class="submenu">
                 <li>
-                  <a href="#about-us">Sobre Nós</a>
+                  <a href="#sobre-nos">Sobre Nós</a>
                 </li>
                 <li>
                   <a href="#">Contate-nos</a>
@@ -111,7 +137,7 @@
         </nav>
       </div>
     </header>
-    <section>
+    <section id="sobre-nos">
       <div class="sobre-nos">
         <div class="image-sobre">
           <img src="./images/loja.jpg" alt="Imagem da Loja" />
@@ -127,9 +153,7 @@
 
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-            laudantium aperiam obcaecati consectetur. Deserunt voluptate,
-            necessitatibus laboriosam aut asperiores eos nobis amet neque animi.
-            Aperiam architecto quo quaerat voluptas inventore.
+            laudantium aperiam obcaecati consectetur.
           </p>
           <p class="not-mobile">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
@@ -246,7 +270,17 @@
         <p>&copy Little Fawn Baby Store - Todos os direitos reservados</p>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <script src="./main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".button-menu button").click(function () {
+          $(".menu").slideToggle();
+        });
+      });
+    </script>
   </body>
 </html>
