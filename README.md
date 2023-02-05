@@ -1,7 +1,7 @@
 # Little Fawn Loja Infantil - Página Inicial
 
   <p align="center">
-  <img width="470" src=" ./images/readme/logo-loja.png"> </p>
+  <img width="300" src=" ./images/logo-loja.png"> </p>
   
 This page was developed using HTML and CSS.
 
@@ -14,6 +14,7 @@ The choice of the theme of the page was made to put into practice my knowledge i
 ## See Store Homepage in action
 
 Try with our [live demo](https://little-fawn-pagina-responsiva.vercel.app/).
+See below how the page behaves on different screens:
 
  <p align="center">
-  <img width="600" src=" ./images/readme/telas.png"> </p>
+  <img width="400" src=" ./images/telas.png"> </p>
