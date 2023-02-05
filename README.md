@@ -18,4 +18,4 @@ Try with our [live demo](https://little-fawn-pagina-responsiva.vercel.app/).
 See below how the page behaves on different screens:
 </br>
  <p align="center">
-  <img width="400" src=" ./images/telas_readme.png"> </p>
+  <img width="800" src=" ./images/telas_readme.png"> </p>
