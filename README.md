@@ -17,10 +17,11 @@ Try with our [live demo](https://little-fawn-pagina-responsiva.vercel.app/).
 
 See below how the page behaves on different screens:
 </br>
-Page Menu:
+
 
  <p align="center">
   <img width="800" src=" ./images/telas_readme.png"> </p>
+  Page Menu:
 </br>
  <p align="center">
   <img width="800" src=" ./images/menu_telas.png"> </p>
